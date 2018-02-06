@@ -25,7 +25,8 @@ namespace InheritanceAndPolymorphismPractice
         public Standard(int cost)
         {
             //overloaded constructor
-            Cost = cost;    //property cost is equal to whatever is passed through parameter.
+            Cost = cost;  //property cost is equal to whatever is passed through parameter.
+            
         }
 
 
