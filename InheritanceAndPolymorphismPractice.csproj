@@ -46,6 +46,8 @@
     <Compile Include="car.cs" />
     <Compile Include="DeathEater.cs" />
     <Compile Include="HogwartsStudent.cs" />
+    <Compile Include="Membership.cs" />
+    <Compile Include="Standard.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

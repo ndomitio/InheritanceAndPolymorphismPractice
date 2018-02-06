@@ -10,15 +10,15 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-            Wizard wizardOne = new Wizard(true);
+            //Wizard wizardOne = new Wizard(true);
 
-            HogwartsStudent longbottom = new HogwartsStudent(7);
+            //HogwartsStudent longbottom = new HogwartsStudent(7);
 
-            DeathEater malfoy = new DeathEater();  //from derived class, isGood set to false.
+            //DeathEater malfoy = new DeathEater();  //from derived class, isGood set to false.
 
-            wizardOne.MakeMagic();  //same method called, 3 different outputs based on the body of the method in the base/derived class
-            longbottom.MakeMagic();
-            malfoy.MakeMagic();
+            //wizardOne.MakeMagic();  //same method called, 3 different outputs based on the body of the method in the base/derived class
+            //longbottom.MakeMagic();
+            //malfoy.MakeMagic();
 
 
             //boat MyBoat= new boat (0, "red");
@@ -33,3 +33,9 @@ namespace InheritanceAndPolymorphismPractice
         //To call methods and properties of a class in the program class, you have to instantiate an object from that class.   
     }
 }
+
+
+//overloading- creating a duplicate method or constructor that takes different parameters.  
+//EXAMPLE: default constructor takes no parameters and then other constructors are created with
+
+//overriding - creating a method with the ovverride keyword to customize a derived method the base method
