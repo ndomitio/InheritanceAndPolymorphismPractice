@@ -42,11 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Appliance.cs" />
     <Compile Include="boat.cs" />
     <Compile Include="car.cs" />
     <Compile Include="DeathEater.cs" />
+    <Compile Include="Dishwasher.cs" />
     <Compile Include="HogwartsStudent.cs" />
     <Compile Include="Membership.cs" />
+    <Compile Include="Microwave.cs" />
     <Compile Include="Standard.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Program.cs" />

@@ -10,27 +10,19 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-            Standard gymMember1 = new Standard(100, true);
-            VIP gymMember2 = new VIP();
+            Microwave mike1 = new Microwave(1000, "Samsung");
+            mike1.Work();
+            Dishwasher dish1 = new Dishwasher(0, true);
+            dish1.Work();
             
-            gymMember1.Activate();
-            gymMember2.Activate();
+            //Standard gymMember1 = new Standard(100);
+            //VIP gymMember2 = new VIP();
+            
+            //gymMember1.Activate();
+            //gymMember2.Activate();
            
 
-
-
-
-              
-
-
-
-
-
-
-
-
-
-
+            
             //Wizard wizardOne = new Wizard(true);
 
             //HogwartsStudent longbottom = new HogwartsStudent(7);
@@ -60,3 +52,10 @@ namespace InheritanceAndPolymorphismPractice
 //EXAMPLE: default constructor takes no parameters and then other constructors are created with
 
 //overriding - creating a method with the ovverride keyword to customize a derived method the base method
+
+    //PRINCIPLES of OOP***look up definitions
+    //1:inheritance--ability for us to have derived classes, that take on characteristics of the base class
+    //2. polymorphism--ability for us to use methods from the base class into a derived class and change it.
+    //example: using override on an abstract method
+    //3. abstraction--making code generalized for later customization.  
+    //4. encapsolation--seperation of concerns, organization to exclude unprohibited access.
