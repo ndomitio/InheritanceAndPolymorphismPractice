@@ -21,14 +21,15 @@ namespace InheritanceAndPolymorphismPractice
         // public Rectangle() : base()
         //{}
 
-        //public Rectangle(double area) : base(4)
-        //{ this.area = area; }
+        public Rectangle(double area) : base(4)
+        { this.area = area; }
 
 
-        public Rectangle(double area)
-        {
-            this.area = area;
-        }
+
+        //public Rectangle(double area)
+        //{
+        //    this.area = area;
+        //}
 
 
 

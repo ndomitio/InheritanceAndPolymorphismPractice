@@ -10,10 +10,12 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-            Microwave mike1 = new Microwave(1000, "Samsung");
-            mike1.Work();
-            Dishwasher dish1 = new Dishwasher(0, true);
-            dish1.Work();
+
+
+            //Microwave mike1 = new Microwave(1000, "Samsung");
+            //mike1.Work();
+            //Dishwasher dish1 = new Dishwasher(0, true);
+            //dish1.Work();
             
             //Standard gymMember1 = new Standard(100);
             //VIP gymMember2 = new VIP();

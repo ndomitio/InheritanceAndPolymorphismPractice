@@ -48,6 +48,7 @@
     <Compile Include="DeathEater.cs" />
     <Compile Include="Dishwasher.cs" />
     <Compile Include="HogwartsStudent.cs" />
+    <Compile Include="House.cs" />
     <Compile Include="Membership.cs" />
     <Compile Include="Microwave.cs" />
     <Compile Include="Standard.cs" />
