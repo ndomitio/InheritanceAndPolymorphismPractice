@@ -31,19 +31,21 @@ namespace InheritanceAndPolymorphismPractice
 
 
         //methods
-
-        public override void Activate()
+        
+        public override void Activate() 
         {
-            //base.Activate();//would execute same as base class method body   
-            if (IsActive == false)
-            {
-                IsActive = true;
-                Console.WriteLine("Your standard membership has been activated.");
-            }
-            else
-            {
-                Console.WriteLine("Your standard membership is already active.");
-            }
+            base.Activate();
+            //base.Activate();//would execute same as base class method body???
+            //if (IsActive == false)
+            //{
+            //    IsActive = true;
+            //    Console.WriteLine("Your standard membership has been activated.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Your standard membership is already active.");
+            //}
+            
 
         }
     }

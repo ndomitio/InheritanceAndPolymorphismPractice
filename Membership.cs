@@ -47,6 +47,7 @@ namespace InheritanceAndPolymorphismPractice
 
         public virtual void Activate()
         {
+
             if (isActive == false)
             {
                 isActive = true;

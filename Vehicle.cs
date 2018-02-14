@@ -12,8 +12,7 @@ namespace InheritanceAndPolymorphismPractice
         //fields
         private string color;
         private int wheels;
-        private bool hasSeatBelts;
-        private string yearMade;
+        
 
         //properties
 

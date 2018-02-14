@@ -46,12 +46,13 @@
     <Compile Include="boat.cs" />
     <Compile Include="car.cs" />
     <Compile Include="DeathEater.cs" />
+    <Compile Include="Vacation.cs" />
     <Compile Include="Dishwasher.cs" />
     <Compile Include="HogwartsStudent.cs" />
-    <Compile Include="House.cs" />
     <Compile Include="Membership.cs" />
     <Compile Include="Microwave.cs" />
     <Compile Include="Standard.cs" />
+    <Compile Include="VacationDestination.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
